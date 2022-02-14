@@ -1,0 +1,10 @@
+# IPython log file
+
+# Tue, 08 Feb 2022 11:32:14
+ipaddress.ip_address('192.0.2.1')
+# Tue, 08 Feb 2022 11:32:27
+ipaddress.ip_address('192.0.2.1')
+# Tue, 08 Feb 2022 11:32:46
+clear
+# Tue, 08 Feb 2022 11:33:22
+exit()
