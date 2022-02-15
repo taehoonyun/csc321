@@ -1,5 +1,4 @@
 import netifaces
-from ipaddress import IPv4Address
 import ipaddress
 
 interfaces = netifaces.interfaces()
@@ -58,33 +57,29 @@ def get_ips(interface: str):
       {'v4': ipaddress.IPv4Address('192.168.65.48'),
        'v6': ipaddress.IPv6Address('fe80::14e1:8686:e720:57a')}
     """
-
-    IPv4Address = {
-        'IPv4': '10.0.0.222'
-    }
-    IPv6Address = {
-        'IPv6': '2601:3c4:300:a0a0::2cf'
-    }
-
     addrs = netifaces.ifaddresses(interface)
-    print("Question 3")
-    print(addrs[netifaces.AF_INET])
-    print('\n')
+    Ip_dic = {}
+    # print("Question 3")
 
-    print(addrs[netifaces.AF_INET6])
-    print('\n')
-    IPv4andIPv6 = {
-        # ------------------#################question about here
-        'v4': ipaddress.IPv4Address('10.0.0.222'),
-        'v6': ipaddress.IPv6Address('2601:3c4:300:a0a0::2cf')
+    try:
+        addrs[netifaces.AF_INET][0]['addr']
+        ipAdr6_15 = addrs[netifaces.AF_INET6][0]['addr']
+        ipAdr6 = ipAdr6_15[0: ipAdr6_15.index('%')]
 
-    }
-    return {
-        # ------------------#################question about here
-        'v4': ipaddress.IPv4Address('10.0.0.222'),
-        'v6': ipaddress.IPv6Address('2601:3c4:300:a0a0::2cf')
+        print(interface + " have addr")
+        print('\n')
+        Ip_dic = {
 
-    }
+            'v4_ad': ipaddress.IPv4Address(addrs[netifaces.AF_INET][0]['addr']),
+            'v6_ad': ipaddress.IPv6Address(ipAdr6),
+
+        }
+        print(Ip_dic)
+    except:
+        print(interface + "don't have addr")
+        print("")
+
+    return Ip_dic
 
 
 get_ips(en0)
@@ -102,19 +97,30 @@ def get_netmask(interface: str):
     Returns: (dict) Dictionary with the following form
       {'v4': ipaddress.IPv4Address('255.255.255.0'),
        'v6': ipaddress.IPv6Address('ffff:ffff:ffff:ffff::')}
-    """
-    addrs = netifaces.ifaddresses(interface)
-    netmask = {
-        # ------------------#################question about here
-        'v4': ipaddress.IPv4Address('255.255.255.0'),
-        'v6': ipaddress.IPv6Address('ffff:ffff:ffff:ffff::')
-    }
 
-    return {
-        # ------------------#################question about here
-        'v4': ipaddress.IPv4Address('255.255.255.0'),
-        'v6': ipaddress.IPv6Address('ffff:ffff:ffff:ffff::')
-    }
+    """
+    Ip_dic = {}
+    addrs = netifaces.ifaddresses(interface)
+
+    try:
+        addrs[netifaces.AF_INET][0]['netmask']
+
+        ip6Net_sl = addrs[netifaces.AF_INET6][0]['netmask']
+        ip6Net = ip6Net_sl[0: ip6Net_sl.index('/')]
+        # print(ip6Net)
+        print(interface + " have a netmask")
+        Ip_dic = {
+            # ------------------#################question about here
+            'v4_netmask': ipaddress.IPv4Address(addrs[netifaces.AF_INET][0]['netmask']),
+            'v6_netmask': ipaddress.IPv6Address(ip6Net)
+        }
+        print(Ip_dic)
+        print("")
+    except:
+        print(interface + "don't have netmask")
+        print("")
+
+    return Ip_dic
 
 
 get_netmask(en0)
@@ -132,11 +138,40 @@ def get_network(interface: str):
       {'v4': ipaddress.IPv4Network('192.168.65.0/24'),
        'v6': ipaddress.IPv6Network('fe80::/64')}
     """
+    Ip_dic = {}
     addrs = netifaces.ifaddresses(interface)
-    network = {'v4': ipaddress.IPv4Network('10.0.0.0/26'),
-               'v6': ipaddress.IPv6Network('2601:3c4:300:a0a0::/64')
-               }
-    return network
+
+    try:
+        # if interface has no address, network does not exist too.s
+        addrs[netifaces.AF_INET][0]['addr']
+
+        ipAdr6_15 = addrs[netifaces.AF_INET6][0]['addr']
+        ip6Net = ipAdr6_15[0: ipAdr6_15.index('%')]
+
+        Ip_dic = {
+            'v4_network': ipaddress.ip_address(addrs[netifaces.AF_INET][0]['addr']),
+            'v6_network': ipaddress.ip_address(ip6Net)
+        }
+        print(interface + " have a network")
+        print(Ip_dic)
+        print("")
+    except:
+        print(interface + "don't have network")
+        # print(addrs[netifaces.AF_INET6])
+    return Ip_dic
 
 
 get_network(en0)
+
+for i in get_interfaces():
+    get_ips(i)
+    get_netmask(i)
+    get_network(i)
+
+# print(answer)
+# if(answer == True):
+#     try:
+#         get_ips(i)
+
+#     except:
+#         print('error')
