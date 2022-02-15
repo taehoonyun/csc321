@@ -167,11 +167,3 @@ for i in get_interfaces():
     get_ips(i)
     get_netmask(i)
     get_network(i)
-
-# print(answer)
-# if(answer == True):
-#     try:
-#         get_ips(i)
-
-#     except:
-#         print('error')
