@@ -1,0 +1,64 @@
+Before run Hello World server
+
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+
+Ȱ�� ����
+
+  ��������  ���� �ּ�           �ܺ� �ּ�              ����
+  TCP    10.0.0.222:49933       162.159.133.234:https  ESTABLISHED
+  TCP    10.0.0.222:53491       52.226.139.180:https   ESTABLISHED
+  TCP    10.0.0.222:53601       52.226.139.180:https   ESTABLISHED
+  TCP    10.0.0.222:53620       a23-199-188-11:http    TIME_WAIT
+  TCP    10.0.0.222:53636       20.60.181.193:https    ESTABLISHED
+  TCP    10.0.0.222:53638       a23-0-175-169:http     TIME_WAIT
+  TCP    10.0.0.222:53639       a23-0-175-169:http     TIME_WAIT
+  TCP    10.0.0.222:53653       204.79.197.219:https   TIME_WAIT
+  TCP    10.0.0.222:53654       52.178.17.3:https      TIME_WAIT
+
+Ȱ�� ����
+
+  ��������  ���� �ּ�           �ܺ� �ּ�              ����
+
+Ȱ�� ����
+
+  ��������  ���� �ּ�           �ܺ� �ּ�              ����
+  TCP    10.0.0.222:49933       162.159.133.234:https  ESTABLISHED
+  TCP    10.0.0.222:53491       52.226.139.180:https   ESTABLISHED
+
+
+
+After running Hello World Server and Client
+
+
+Ȱ�� ����
+
+  ��������  ���� �ּ�           �ܺ� �ּ�              ����
+  TCP    10.0.0.222:49933       162.159.133.234:https  ESTABLISHED
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         STREAM     CONNECTED     106332   
+unix  3      [ ]         STREAM     CONNECTED     106330   
+unix  3      [ ]         STREAM     CONNECTED     106329   
+unix  3      [ ]         STREAM     CONNECTED     106331   
+unix  3      [ ]         STREAM     CONNECTED     106336   
+unix  3      [ ]         STREAM     CONNECTED     106334   
+unix  3      [ ]         STREAM     CONNECTED     106335   
+unix  3      [ ]         STREAM     CONNECTED     106333   
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path

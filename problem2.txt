@@ -1,0 +1,45 @@
+Before run the weather server and client.
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+
+
+while running the weather server and client.
+
+
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         STREAM     CONNECTED     112066
+unix  3      [ ]         STREAM     CONNECTED     112063
+unix  3      [ ]         STREAM     CONNECTED     112062
+unix  3      [ ]         STREAM     CONNECTED     112065
+unix  3      [ ]         STREAM     CONNECTED     112060
+unix  3      [ ]         STREAM     CONNECTED     112059
+unix  3      [ ]         STREAM     CONNECTED     112061
+unix  3      [ ]         STREAM     CONNECTED     112064
+
+
+After Running the weather server and client.
+
+
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         STREAM     CONNECTED     112988
+unix  3      [ ]         STREAM     CONNECTED     112991
+unix  3      [ ]         STREAM     CONNECTED     112985
+unix  3      [ ]         STREAM     CONNECTED     112989
+unix  3      [ ]         STREAM     CONNECTED     112987
+unix  3      [ ]         STREAM     CONNECTED     112990
+unix  3      [ ]         STREAM     CONNECTED     112984
+unix  3      [ ]         STREAM     CONNECTED     112986
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
