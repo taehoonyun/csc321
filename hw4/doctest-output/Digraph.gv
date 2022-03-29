@@ -1,0 +1,589 @@
+// The Round Table
+digraph {
+	{
+		17 [label="google.com"]
+	}
+	{
+		18 [label="youtube.com"]
+	}
+	{
+		19 [label="facebook.com"]
+	}
+	{
+		20 [label="baidu.com"]
+	}
+	301 [label=""]
+	301 -> 20
+	{
+		21 [label="yahoo.com"]
+	}
+	302 [label="media-router-fp73.prod.media.vip.bf1.yahoo.com"]
+	302 -> 21
+	303 [label="media-router-fp74.prod.media.vip.bf1.yahoo.com"]
+	303 -> 21
+	304 [label="media-router-fp73.prod.media.vip.ne1.yahoo.com"]
+	304 -> 21
+	305 [label="media-router-fp74.prod.media.vip.ne1.yahoo.com"]
+	305 -> 21
+	306 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	306 -> 21
+	{
+		22 [label="amazon.com"]
+	}
+	307 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	307 -> 22
+	308 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	308 -> 22
+	{
+		23 [label="wikipedia.org"]
+	}
+	{
+		24 [label="qq.com"]
+	}
+	309 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	309 -> 24
+	310 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	310 -> 24
+	311 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	311 -> 24
+	{
+		25 [label="google.co.in"]
+	}
+	{
+		26 [label="twitter.com"]
+	}
+	312 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	312 -> 26
+	{
+		27 [label="live.com"]
+	}
+	{
+		28 [label="taobao.com"]
+	}
+	313 [label="media-router-fp74.prod.media.vip.gq1.yahoo.com"]
+	313 -> 28
+	{
+		29 [label="google.co.jp"]
+	}
+	{
+		30 [label="bing.com"]
+	}
+	314 [label="a-0001.a-msedge.net"]
+	314 -> 30
+	{
+		31 [label="instagram.com"]
+	}
+	{
+		32 [label="weibo.com"]
+	}
+	315 [label="a-0001.a-msedge.net"]
+	315 -> 32
+	{
+		33 [label="sina.com.cn"]
+	}
+	316 [label="a-0001.a-msedge.net"]
+	316 -> 33
+	317 [label="a-0001.a-msedge.net"]
+	317 -> 33
+	{
+		34 [label="linkedin.com"]
+	}
+	{
+		35 [label="yahoo.co.jp"]
+	}
+	318 [label="a-0001.a-msedge.net"]
+	318 -> 35
+	319 [label="a-0001.a-msedge.net"]
+	319 -> 35
+	320 [label="a-0001.a-msedge.net"]
+	320 -> 35
+	321 [label="a-0001.a-msedge.net"]
+	321 -> 35
+	322 [label="a-0001.a-msedge.net"]
+	322 -> 35
+	323 [label="a-0001.a-msedge.net"]
+	323 -> 35
+	324 [label="a-0001.a-msedge.net"]
+	324 -> 35
+	{
+		36 [label="msn.com"]
+	}
+	{
+		37 [label="vk.com"]
+	}
+	325 [label="srv72-190-240-87.vk.com"]
+	325 -> 37
+	326 [label="srv78-190-240-87.vk.com"]
+	326 -> 37
+	327 [label="srv78-190-240-87.vk.com"]
+	327 -> 37
+	328 [label="srv158-137-240-87.vk.com"]
+	328 -> 37
+	329 [label="srv194-139-240-87.vk.com"]
+	329 -> 37
+	{
+		38 [label="google.de"]
+	}
+	{
+		39 [label="yandex.ru"]
+	}
+	330 [label="yandex.ru"]
+	330 -> 39
+	331 [label="yandex.ru"]
+	331 -> 39
+	332 [label="yandex.ru"]
+	332 -> 39
+	{
+		40 [label="hao123.com"]
+	}
+	333 [label="yandex.ru"]
+	333 -> 40
+	334 [label="yandex.ru"]
+	334 -> 40
+	{
+		41 [label="google.co.uk"]
+	}
+	{
+		42 [label="reddit.com"]
+	}
+	335 [label="yandex.ru"]
+	335 -> 42
+	336 [label="yandex.ru"]
+	336 -> 42
+	337 [label="yandex.ru"]
+	337 -> 42
+	{
+		43 [label="ebay.com"]
+	}
+	338 [label="highlnfe38-web-public-1-1-slcaz02.ebay.com"]
+	338 -> 43
+	339 [label="ru.ebay.com"]
+	339 -> 43
+	340 [label="highlnfe38-web-public-1-1-lvsaz03.ebay.com"]
+	340 -> 43
+	341 [label="highlnfe38-web-public-1-1-slcaz01.ebay.com"]
+	341 -> 43
+	342 [label="ru.ebay.com"]
+	342 -> 43
+	{
+		44 [label="google.fr"]
+	}
+	{
+		45 [label="t.co"]
+	}
+	343 [label="ru.ebay.com"]
+	343 -> 45
+	344 [label="ru.ebay.com"]
+	344 -> 45
+	345 [label="ru.ebay.com"]
+	345 -> 45
+	{
+		46 [label="tmall.com"]
+	}
+	346 [label="ru.ebay.com"]
+	346 -> 46
+	{
+		47 [label="google.com.br"]
+	}
+	{
+		48 [label="360.cn"]
+	}
+	347 [label="ru.ebay.com"]
+	347 -> 48
+	{
+		49 [label="sohu.com"]
+	}
+	{
+		50 [label="amazon.co.jp"]
+	}
+	348 [label="ru.ebay.com"]
+	348 -> 50
+	349 [label="ru.ebay.com"]
+	349 -> 50
+	{
+		51 [label="pinterest.com"]
+	}
+	350 [label="ru.ebay.com"]
+	350 -> 51
+	351 [label="ru.ebay.com"]
+	351 -> 51
+	352 [label="ru.ebay.com"]
+	352 -> 51
+	{
+		52 [label="mail.ru"]
+	}
+	353 [label="mail.ru"]
+	353 -> 52
+	354 [label="mail.ru"]
+	354 -> 52
+	355 [label="mail.ru"]
+	355 -> 52
+	{
+		53 [label="onclickads.net"]
+	}
+	{
+		54 [label="netflix.com"]
+	}
+	356 [label="ec2-54-237-226-164.compute-1.amazonaws.com"]
+	356 -> 54
+	357 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	357 -> 54
+	{
+		55 [label="google.it"]
+	}
+	{
+		56 [label="google.ru"]
+	}
+	{
+		57 [label="microsoft.com"]
+	}
+	358 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	358 -> 57
+	359 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	359 -> 57
+	360 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	360 -> 57
+	361 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	361 -> 57
+	{
+		58 [label="google.es"]
+	}
+	{
+		59 [label="wordpress.com"]
+	}
+	362 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	362 -> 59
+	{
+		60 [label="gmw.cn"]
+	}
+	{
+		61 [label="tumblr.com"]
+	}
+	363 [label="ec2-3-230-129-93.compute-1.amazonaws.com"]
+	363 -> 61
+	{
+		62 [label="PayPal.com"]
+	}
+	364 [label="xoom.com"]
+	364 -> 62
+	{
+		63 [label="blogspot.com"]
+	}
+	{
+		64 [label="imgur.com"]
+	}
+	{
+		65 [label="stackoverflow.com"]
+	}
+	365 [label="xoom.com"]
+	365 -> 65
+	366 [label="xoom.com"]
+	366 -> 65
+	367 [label="xoom.com"]
+	367 -> 65
+	{
+		66 [label="aliexpress.com"]
+	}
+	{
+		67 [label="Naver.com"]
+	}
+	368 [label="xoom.com"]
+	368 -> 67
+	369 [label="xoom.com"]
+	369 -> 67
+	370 [label="xoom.com"]
+	370 -> 67
+	{
+		68 [label="ok.ru"]
+	}
+	371 [label="ip11.23.odnoklassniki.ru"]
+	371 -> 68
+	372 [label="ip1.147.odnoklassniki.ru"]
+	372 -> 68
+	{
+		69 [label="apple.com"]
+	}
+	{
+		70 [label="github.com"]
+	}
+	{
+		71 [label="google.com.mx"]
+	}
+	{
+		72 [label="chinadaily.com.cn"]
+	}
+	{
+		73 [label="imdb.com"]
+	}
+	373 [label="ip1.147.odnoklassniki.ru"]
+	373 -> 73
+	374 [label="ip1.147.odnoklassniki.ru"]
+	374 -> 73
+	{
+		74 [label="google.co.kr"]
+	}
+	{
+		75 [label="fc2.com"]
+	}
+	{
+		76 [label="jd.com"]
+	}
+	375 [label="ip1.147.odnoklassniki.ru"]
+	375 -> 76
+	376 [label="ip1.147.odnoklassniki.ru"]
+	376 -> 76
+	377 [label="ip1.147.odnoklassniki.ru"]
+	377 -> 76
+	{
+		77 [label="blogger.com"]
+	}
+	{
+		78 [label="163.com"]
+	}
+	378 [label="ip1.147.odnoklassniki.ru"]
+	378 -> 78
+	{
+		79 [label="google.ca"]
+	}
+	{
+		80 [label="google.com.hk"]
+	}
+	{
+		81 [label="whatsapp.com"]
+	}
+	{
+		82 [label="amazon.in"]
+	}
+	379 [label="ip1.147.odnoklassniki.ru"]
+	379 -> 82
+	380 [label="ip1.147.odnoklassniki.ru"]
+	380 -> 82
+	{
+		83 [label="office.com"]
+	}
+	{
+		84 [label="google.com.tr"]
+	}
+	{
+		85 [label="tianya.cn"]
+	}
+	{
+		86 [label="google.co.id"]
+	}
+	{
+		87 [label="youku.com"]
+	}
+	{
+		88 [label="rakuten.co.jp"]
+	}
+	{
+		89 [label="craigslist.org"]
+	}
+	{
+		90 [label="amazon.de"]
+	}
+	381 [label="ip1.147.odnoklassniki.ru"]
+	381 -> 90
+	382 [label="ip1.147.odnoklassniki.ru"]
+	382 -> 90
+	{
+		91 [label="nicovideo.jp"]
+	}
+	{
+		92 [label="google.pl"]
+	}
+	{
+		93 [label="soso.com"]
+	}
+	383 [label="ip1.147.odnoklassniki.ru"]
+	383 -> 93
+	{
+		94 [label="bilibili.com"]
+	}
+	384 [label="ecs-139-159-241-37.compute.hwclouds-dns.com"]
+	384 -> 94
+	385 [label="ecs-139-159-241-37.compute.hwclouds-dns.com"]
+	385 -> 94
+	386 [label="ecs-139-159-241-37.compute.hwclouds-dns.com"]
+	386 -> 94
+	387 [label="ecs-139-159-241-37.compute.hwclouds-dns.com"]
+	387 -> 94
+	388 [label="ecs-119-3-70-188.compute.hwclouds-dns.com"]
+	388 -> 94
+	389 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	389 -> 94
+	{
+		95 [label="dropbox.com"]
+	}
+	{
+		96 [label="xinhuanet.com"]
+	}
+	390 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	390 -> 96
+	{
+		97 [label="outbrain.com"]
+	}
+	{
+		98 [label="pixnet.net"]
+	}
+	{
+		99 [label="alibaba.com"]
+	}
+	391 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	391 -> 99
+	{
+		100 [label="alipay.com"]
+	}
+	392 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	392 -> 100
+	{
+		101 [label="microsoftonline.com"]
+	}
+	393 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	393 -> 101
+	{
+		102 [label="google.com.tw"]
+	}
+	{
+		103 [label="booking.com"]
+	}
+	{
+		104 [label="googleusercontent.com"]
+	}
+	{
+		105 [label="google.com.au"]
+	}
+	{
+		106 [label="popads.net"]
+	}
+	394 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	394 -> 106
+	{
+		107 [label="cntv.cn"]
+	}
+	{
+		108 [label="zhihu.com"]
+	}
+	{
+		109 [label="amazon.co.uk"]
+	}
+	395 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	395 -> 109
+	396 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	396 -> 109
+	{
+		110 [label="diply.com"]
+	}
+	{
+		111 [label="coccoc.com"]
+	}
+	{
+		112 [label="cnn.com"]
+	}
+	397 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	397 -> 112
+	398 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	398 -> 112
+	399 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	399 -> 112
+	{
+		113 [label="bbc.co.uk"]
+	}
+	400 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	400 -> 113
+	401 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	401 -> 113
+	402 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	402 -> 113
+	{
+		114 [label="twitch.tv"]
+	}
+	403 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	403 -> 114
+	404 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	404 -> 114
+	405 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	405 -> 114
+	{
+		115 [label="wikia.com"]
+	}
+	406 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	406 -> 115
+	407 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	407 -> 115
+	408 [label="ecs-119-3-238-64.compute.hwclouds-dns.com"]
+	408 -> 115
+	{
+		116 [label="google.co.th"]
+	}
+	{
+		117 [label="google.com.ar"]
+	}
+	{
+		118 [label="go.com"]
+	}
+	{
+		119 [label="google.nl"]
+	}
+	{
+		120 [label="ebay.co.uk"]
+	}
+	409 [label="ru.ebay.com"]
+	409 -> 120
+	410 [label="highlnfe38-web-public-1-1-slcaz02.ebay.com"]
+	410 -> 120
+	411 [label="ru.ebay.com"]
+	411 -> 120
+	412 [label="highlnfe38-web-public-1-1-lvsaz02.ebay.com"]
+	412 -> 120
+	413 [label="highlnfe38-web-public-1-1-slcaz01.ebay.com"]
+	413 -> 120
+	{
+		121 [label="kat.cr"]
+	}
+	{
+		122 [label="globo.com"]
+	}
+	{
+		123 [label="google.com.ua"]
+	}
+	{
+		124 [label="uol.com.br"]
+	}
+	{
+		125 [label="avito.ru"]
+	}
+	414 [label="highlnfe38-web-public-1-1-slcaz01.ebay.com"]
+	414 -> 125
+	415 [label="highlnfe38-web-public-1-1-slcaz01.ebay.com"]
+	415 -> 125
+	{
+		126 [label="google.com.co"]
+	}
+	{
+		127 [label="google.com.vn"]
+	}
+	{
+		128 [label="google.com.ph"]
+	}
+	{
+		129 [label="doubleclick.net"]
+	}
+	{
+		130 [label="onet.pl"]
+	}
+	416 [label="aafc88a28d9997374.awsglobalaccelerator.com"]
+	416 -> 130
+	{
+		131 [label="googleadservices.com"]
+	}
+	{
+		132 [label="accuweather.com"]
+	}
+	{
+		133 [label="googleweblight.com"]
+	}
+	{
+		134 [label="answers.yahoo.com"]
+	}
+}

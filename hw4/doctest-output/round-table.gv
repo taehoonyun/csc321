@@ -1,0 +1,6 @@
+// The Round Table
+digraph "round-table" {
+	A [label="yx-in-f136.1e100.net"]
+	B [label="yx-in-f136.1e100.net"]
+	A -> B
+}
